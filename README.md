@@ -42,6 +42,7 @@ Created a GitHub Actions workflow (.github/workflows/ci.yml) with two jobs:
   - Builds Docker images for frontend & backend.
   - Pushes them to Docker Hub.
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/841d59da-9e6f-4802-b7af-39790b2e09e4" />
+<img width="1918" height="745" alt="7" src="https://github.com/user-attachments/assets/f1891e23-450b-4bf9-ba6c-7b29533fb8c8" />
 
 * Deploy on EC2:
   - Connects to AWS EC2 via SSH.
