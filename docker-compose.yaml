@@ -1,6 +1,6 @@
 services:
   backend:
-    build: ./backend
+    image: 8192027760/backend:latest
     ports:
       - "5000:5000" 
     container_name: backendd
@@ -21,7 +21,7 @@ services:
       - mongo-dataa:/data/db  
   
   nginxx:
-    build: ./frontend     
+    image: 8192027760/frontend:latest
     container_name: nginx-base
     ports:
       - "80:80"
